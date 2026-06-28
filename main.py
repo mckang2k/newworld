@@ -106,3 +106,13 @@ def main():
 if __name__ == "__main__":
     main()
     
+# import pyperclip
+# ... 기존 엑셀 가상 및 문자열 추출 로직 ...
+# result_text = "화면에 출력할 최종 공지 내용 문자열"
+
+# # 1. 터미널 화면에도 출력하고
+# print(result_text)
+
+# # 2. 윈도우 클립보드에도 강제로 쑤셔 넣기!
+# pyperclip.copy(result_text)
+# print("\n[안내] 공지 내용이 클립보드에 자동으로 복사되었습니다. 메신저에 Ctrl+V 하세요!")
